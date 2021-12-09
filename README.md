@@ -7,4 +7,4 @@ https://codepen.io/gfree/full/LYjKdeX
 - JS Play/Pause/Mute/Timeline Controls
 - JS Rotating Knob
 
-![image](https://gregfreeman.me/projects/boombox/boombox.jpg)
+![image](https://gregfreeman.me/projects/boombox/bbox.jpg)

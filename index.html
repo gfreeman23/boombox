@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - CSS/JS Boombox Ghetto Blaster</title>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/latest/utils/Draggable.min.js"></script><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="boombox">
+  <div id="handle"></div>
+  <div id="box">
+    
+    <div id="switch-wrap">
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider"></span>
+      </label>
+    </div>
+    
+    <div id="play-button" class="play">
+      <audio id="audio" src="https://gregfreeman.me/projects/random/song.mp3" title="Nas & Nature - In too Deep (Instrumental).mp3"></audio>
+    </div>
+    
+    <input id="timeline" type="range" max="100" value="0">
+    
+    <div id="sound-button">
+      <div id="sound-icon"><span></span></div>
+    </div>
+    
+    <div id="knob-wrap">
+      <div id="knob">
+      </div>
+    </div>
+
+    <div class="speaker left"></div>
+    <div class="speaker right"></div>
+
+    <div id="current-song-wrap">
+      <div id="current-song"></div>
+    </div>
+    
+    <div id="slider-wrap">
+      <div id="sliders">
+        <input type="range" class="" min="0" max="100" value="75">
+        <input type="range" class="" min="0" max="100" value="50">
+        <input type="range" class="" min="0" max="100" value="75">
+      </div>
+    </div>
+    
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

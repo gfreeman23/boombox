@@ -42,10 +42,10 @@ var fileName = document.getElementById("audio").title;
 var currentSong = document.getElementById("current-song");
 var timeline = document.getElementById("timeline");
 var soundButton = document.getElementById("sound-button"),
-     soundIcon = `
-      <div id="sound-icon"><span></span></div>`,
-      muteIcon = `
-      <div id="mute-icon"><span></span></div>`;
+  soundIcon = `
+  <div id="sound-icon"><span></span></div>`,
+  muteIcon = `
+  <div id="mute-icon"><span></span></div>`;
 
 playIcon.addEventListener("click", playPause, false);
 
